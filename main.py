@@ -15,8 +15,6 @@ def graph(dataset):
     plt.xlabel('Generations')
     plt.ylabel('Weight (g)')
 
-    plt.xticks()
-
 
 def main():
     mins = readFile('min.txt')
